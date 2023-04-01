@@ -1,0 +1,8 @@
+package hello.service;
+
+import hello.dao.UserDao;
+import hello.model.User;
+
+public class UserServiceImpl implements UserDao<User> {
+
+}

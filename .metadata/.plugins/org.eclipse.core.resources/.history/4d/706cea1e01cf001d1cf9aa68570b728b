@@ -1,0 +1,75 @@
+package hello.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import hello.model.User;
+
+public interface UserDao<T> {
+
+	public List<T> getAll();
+
+	public T getById(Integer t);
+
+	public List<T> searchByName(String t);
+
+	public void insert(T t);
+
+	public void update(T t);
+
+	public void delete(Integer t);
+
+}
+
+@Repository
+public class UserDaoImpl implements UserDao<User> {
+
+	@Autowired
+	private SessionFactory sessionFactory;
+
+	@Override
+	public List<User> getAll() {
+		List<User> list = new ArrayList<User>();
+		try {
+			list = (List<User>) sessionFactory.openSession().createQuery("from User");
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			sessionFactory.close();
+		}
+		
+		return list.getResultList();
+	}
+
+	@Override
+	public User getById(Integer t) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<User> searchByName(String t) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void insert(User t) {
+		sessionFactory.getCurrentSession().save(t);
+	}
+
+	@Override
+	public void update(User t) {
+
+	}
+
+	@Override
+	public void delete(Integer t) {
+
+	}
+
+}

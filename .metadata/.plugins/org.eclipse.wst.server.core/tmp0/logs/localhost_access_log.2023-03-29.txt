@@ -1,0 +1,12 @@
+127.0.0.1 - - [29/Mar/2023:10:50:17 +0700] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:10:50:18 +0700] "GET /Hello/ HTTP/1.1" 200 488
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:10:50:18 +0700] "GET /Hello/resource/js/;jsessionid=C060E6438B301F8A7C4FA982962DB154 HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:10:50:18 +0700] "GET /Hello/resource/image/1.png;jsessionid=C060E6438B301F8A7C4FA982962DB154 HTTP/1.1" 200 44123
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:10:50:19 +0700] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:10:50:50 +0700] "GET /Hello/hello/viet HTTP/1.1" 200 318
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:10:50:50 +0700] "GET /Hello/resource/image/1.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:10:50:50 +0700] "GET /Hello/resource/js/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:10:51:07 +0700] "GET /Hello/hello/viet HTTP/1.1" 200 264
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:10:51:07 +0700] "GET /Hello/resource/js/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:10:51:33 +0700] "GET /Hello/hello/Duc%20Viet HTTP/1.1" 200 268
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:10:51:33 +0700] "GET /Hello/resource/js/ HTTP/1.1" 404 682

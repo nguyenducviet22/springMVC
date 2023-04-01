@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Fri Mar 31 11:08:50 ICT 2023
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\NGUYEN\ DUC\ VIET\\.m2\\repository\\org\\apache\\tomcat\\tomcat-jasper-el\\9.0.62\\tomcat-jasper-el-9.0.62.jar=WEB-INF/lib/tomcat-jasper-el-9.0.62.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\NGUYEN\ DUC\ VIET\\.m2\\repository\\org\\apache\\tomcat\\tomcat-jasper\\9.0.62\\tomcat-jasper-9.0.62.jar=WEB-INF/lib/tomcat-jasper-9.0.62.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\NGUYEN\ DUC\ VIET\\.m2\\repository\\org\\apache\\tomcat\\tomcat-websocket\\9.0.62\\tomcat-websocket-9.0.62.jar=WEB-INF/lib/tomcat-websocket-9.0.62.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\NGUYEN\ DUC\ VIET\\.m2\\repository\\org\\springframework\\spring-web\\5.3.22\\spring-web-5.3.22.jar=WEB-INF/lib/spring-web-5.3.22.jar

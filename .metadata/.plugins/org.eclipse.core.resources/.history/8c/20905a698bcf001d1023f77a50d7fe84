@@ -1,0 +1,2 @@
+user.username.lengthErr = Username should be from 5 to 50 characters
+user.password.lengthErr = Passwo should be from 5 to 50 characters

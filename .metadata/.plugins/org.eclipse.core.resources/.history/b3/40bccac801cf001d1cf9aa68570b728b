@@ -1,0 +1,9 @@
+package hello.dao;
+
+import java.util.List;
+
+import hello.model.User;
+
+public class UserDaoImpl {
+
+}

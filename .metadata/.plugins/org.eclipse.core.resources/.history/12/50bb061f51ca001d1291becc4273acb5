@@ -1,0 +1,12 @@
+package hibernate.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import hibernate.dao.Dao;
+
+@org.springframework.stereotype.Controller
+public class Controller {
+	
+	@Autowired
+	Dao dao;
+}

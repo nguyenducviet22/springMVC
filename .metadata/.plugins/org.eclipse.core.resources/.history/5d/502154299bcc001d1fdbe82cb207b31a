@@ -1,0 +1,6 @@
+package hello.config;
+
+public class WebInitalizer extends AbstractAnnotation {
+
+
+}

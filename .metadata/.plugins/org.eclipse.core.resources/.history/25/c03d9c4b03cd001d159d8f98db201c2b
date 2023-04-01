@@ -1,0 +1,12 @@
+package hello.model;
+
+public class Order {
+	private Person person;
+
+	public Order(Person person) {
+		super();
+		this.person = person;
+	}
+	
+	
+}

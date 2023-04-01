@@ -1,0 +1,8 @@
+package hello.configuration;
+
+import org.w3c.dom.views.AbstractView;
+
+public class WebInitalizer implements AbstractAN {
+
+
+}

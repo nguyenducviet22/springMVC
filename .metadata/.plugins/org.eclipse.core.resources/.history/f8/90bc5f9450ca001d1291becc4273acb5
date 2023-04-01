@@ -1,0 +1,16 @@
+package hibernate.dao.impl;
+
+import java.util.List;
+
+import hibernate.dao.Dao;
+import hibernate.model.Customer;
+
+public class DaoImpl implements Dao{
+
+	@Override
+	public List<Customer> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

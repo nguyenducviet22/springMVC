@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;1.1 SpringWebMVC_HelloWorld2&apos; to &apos;1.1 SpringWebMVC_HelloWorld&apos;" description="Rename resource &apos;1.1 SpringWebMVC_HelloWorld2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/1.1 SpringWebMVC_HelloWorld2" name="1.1 SpringWebMVC_HelloWorld" stamp="1679962725114" updateReferences="true"/>
+</session>

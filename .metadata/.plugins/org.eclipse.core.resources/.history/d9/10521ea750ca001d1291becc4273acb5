@@ -1,0 +1,20 @@
+package hibernate.dao.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import hibernate.dao.Dao;
+import hibernate.model.Customer;
+
+public class DaoImpl implements Dao{
+	@Autowired
+	private 
+
+	@Override
+	public List<Customer> getAll() {
+		
+		return null;
+	}
+
+}
