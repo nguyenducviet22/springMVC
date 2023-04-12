@@ -1,5 +1,0 @@
-package hibernate.dao;
-
-public interface Dao {
-	public List<Customer>
-}

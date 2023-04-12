@@ -1,5 +1,0 @@
-package hello.dao;
-
-public class UserDaoImpl {
-
-}

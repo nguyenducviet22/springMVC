@@ -1,5 +1,0 @@
-package hello.model;
-
-public class Order {
-	private Person person
-}

@@ -77,10 +77,10 @@ public class CustomerDao implements Dao<Customer> {
 			session.save(t);
 			session.getTransaction().commit();
 			return true;
-		} catch (Exception e) {
+		}catch (Exception e) {
 			e.printStackTrace();
 			session.getTransaction().rollback();
-		} finally {
+		}finally {
 			session.close();
 		}
 		return false;
@@ -123,10 +123,11 @@ public class CustomerDao implements Dao<Customer> {
 	public static void main(String[] args) {
 		CustomerDao cusDao = new CustomerDao();
 
-//		List<Customer> list = cusDao.getAll();
-//		for (Customer customer : list) {
-//			System.out.println(customer);
-//		}
+		List<Customer> list = new ArrayList<Customer>();
+		list = cusDao.getAll();
+		for (Customer customer : list) {
+			System.out.println(customer);
+		}
 
 //		Customer cus = cusDao.getById(1);
 //		System.out.println(cus);

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns:context="http://www.springframework.org/schema/context"
+  xmlns:mvc="http://www.springframework.org/schema/mvc"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+    http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd">
+  
+  <!-- chỉ tới package chứa các thành phần của spring -->
+  <!-- nó quét qua package cha thì sẽ quét qua tất cả package còn => sau này tạo các package bên trong package hello -->
+  <context:component-scan base-package="customer" /> 
+  <!-- điều hướng mvc theo anonation -->
+  <mvc:annotation-driven></mvc:annotation-driven>
+   
+  <!-- đây là cấu hình chỉ tới vị trí đặt các trang jsp -->
+  <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    <property name="prefix">
+      <value>/WEB-INF/views/</value>   <!--đường dẫn tới thư mục chứa các file jsp-->
+    </property>
+    <property name="suffix">
+      <value>.jsp</value> <!-- đuôi định dạng file trong thư mục views -->
+    </property>
+  </bean>
+  
+  <!-- Cấu hình Hibernate -->
+  <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+  	<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
+  	<property name="url" value="jdbc:mysql://localhost:3306/test"></property>
+  	<property name="username" value="root"></property>
+  	<property name="password" value=""></property>
+  </bean>
+  
+  <!-- Cấu hình sessionFactory -->
+  <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+  	<property name="dataSource" ref="dataSource"></property>
+  	<property name="packagesToScan" value="customer.entities"></property>
+  	<property name="hibernateProperties">
+  		<props>
+  			<prop key="hibernate.show_sql">true</prop>
+  			<prop key="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</prop>
+  		</props>
+  	</property>
+  </bean>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</beans>

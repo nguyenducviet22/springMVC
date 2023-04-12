@@ -18,66 +18,21 @@
   <path value="C:/Users/NGUYEN DUC VIET/.m2/repository/org/apache/tomcat/tomcat-i18n-es/9.0.62/tomcat-i18n-es-9.0.62.jar"/>
   <path value="C:/Users/NGUYEN DUC VIET/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar">
    <libraries>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0-rt.tld" project="1. SpringWebMVC_HelloWorld"/>
-    </library>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0.tld" project="1. SpringWebMVC_HelloWorld"/>
-    </library>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c.tld" project="1. SpringWebMVC_HelloWorld"/>
-    </library>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0-rt.tld" project="1. SpringWebMVC_HelloWorld"/>
-    </library>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0.tld" project="1. SpringWebMVC_HelloWorld"/>
-    </library>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt.tld" project="1. SpringWebMVC_HelloWorld"/>
-    </library>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fn.tld" project="1. SpringWebMVC_HelloWorld"/>
-    </library>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/permittedtaglibs.tld" project="1. SpringWebMVC_HelloWorld"/>
-    </library>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/scriptfree.tld" project="1. SpringWebMVC_HelloWorld"/>
-    </library>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0-rt.tld" project="1. SpringWebMVC_HelloWorld"/>
-    </library>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0.tld" project="1. SpringWebMVC_HelloWorld"/>
-    </library>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql.tld" project="1. SpringWebMVC_HelloWorld"/>
-    </library>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0-rt.tld" project="1. SpringWebMVC_HelloWorld"/>
-    </library>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0.tld" project="1. SpringWebMVC_HelloWorld"/>
-    </library>
-    <library class="tld">
-     <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x.tld" project="1. SpringWebMVC_HelloWorld"/>
-    </library>
+    <library class="tld"/>
+    <library class="tld"/>
+    <library class="tld"/>
+    <library class="tld"/>
+    <library class="tld"/>
+    <library class="tld"/>
+    <library class="tld"/>
+    <library class="tld"/>
+    <library class="tld"/>
+    <library class="tld"/>
+    <library class="tld"/>
+    <library class="tld"/>
+    <library class="tld"/>
+    <library class="tld"/>
+    <library class="tld"/>
    </libraries>
   </path>
   <path value="C:/Users/NGUYEN DUC VIET/.m2/repository/org/apache/tomcat/tomcat-storeconfig/9.0.62/tomcat-storeconfig-9.0.62.jar"/>

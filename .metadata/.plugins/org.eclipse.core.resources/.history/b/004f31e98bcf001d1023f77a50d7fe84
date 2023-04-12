@@ -1,3 +1,0 @@
-user.username.lengthErr = Username should be from 5 to 50 characters
-user.password.lengthErr = Password should be from 5 to 50 characters
-user.fullName.lengthErr 

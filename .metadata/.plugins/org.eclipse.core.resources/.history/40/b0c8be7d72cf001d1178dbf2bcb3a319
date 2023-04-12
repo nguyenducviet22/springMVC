@@ -1,5 +1,0 @@
-package hello.service.impl;
-
-public class UserServiceImpl {
-
-}

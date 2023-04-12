@@ -1,7 +1,0 @@
-package hibernate.dao.impl;
-
-import hibernate.dao.Dao;
-
-public class DaoImpl implements Dao{
-
-}
